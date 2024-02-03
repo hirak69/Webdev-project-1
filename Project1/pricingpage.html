@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pricingpage.css">
+    <title>Pricing Page</title>
+</head>
+<body>
+    <header>
+        <h1>Choose Your Plan</h1>
+        
+    </header>
+    <input type="radio" id="usd" name="currency" checked>
+  <label for="usd">₹ RUPEE</label>
+
+  <input type="radio" id="eur" name="currency">
+  <label for="eur">$ USD</label>
+    <main>
+        <section class="pricing-table">
+            <div class="pricing-plan">
+                <h2>Basic</h2>
+                <p class="price">₹999</p>
+                <p class="unit">per month</p>
+                <ul>
+                    <li>10 GB Storage</li>
+                    <li>Unlimited Bandwidth</li>
+                    <li>100 GB Data Transfer</li>
+                    <li>10 Email Accounts</li>
+                    <li>24/7 Support</li>
+                </ul>
+                <button class="toggle-button" onclick="togglePricing('option1')">Choose Plan</button>
+            </div>
+            <div class="pricing-plan">
+                <h2>Pro</h2>
+                <p class="price">₹2999</p>
+                <p class="unit">per month</p>
+                <ul>
+                    <li>50 GB Storage</li>
+                    <li>Unlimited Bandwidth</li>
+                    <li>500 GB Data Transfer</li>
+                    <li>50 Email Accounts</li>
+                    <li>24/7 Support</li>
+                </ul>
+                <button class="toggle-button" onclick="togglePricing('option2')">Choose Plan</button>
+            </div>
+            <div class="pricing-plan">
+                <h2>Premium</h2>
+                <p class="price">₹4999</p>
+                <p class="unit">per month</p>
+                <ul>
+                    <li>100 GB Storage</li>
+                    <li>Unlimited Bandwidth</li>
+                    <li>1 TB Data Transfer</li>
+                    <li>100 Email Accounts</li>
+                    <li>24/7 Support</li>
+                </ul>
+                <button class="toggle-button" onclick="togglePricing('option3')">Choose Plan</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>@Web Page by Hirakjyoti Deka</p>
+    </footer>
+</body>
+</html>

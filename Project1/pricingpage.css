@@ -1,0 +1,94 @@
+body {
+background-image: url(pexels-photo-696680.jpeg);    
+    padding: 0;
+}
+
+header {
+    font-size: 25px;
+    padding: 30px;
+    text-align: center;
+}
+
+h1{
+    font-family: georgia;
+}
+
+input[type="radio"] {
+    display: none;
+  }
+
+  label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #315bd8;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+ 
+  input[type="radio"]:checked + label {
+    background-color: #e74c3c;
+  }
+
+main {
+    padding: 20px;
+}
+
+.pricing-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.pricing-plan {
+    background-color: #5eb2c9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.pricing-plan:hover {
+    transform: scale(1.05);
+}
+
+.pricing-plan h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.toggle-button {
+    background-color:rgb(85, 80, 232);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.unit {
+    font-size: 14px;
+    color: #f7f9f8;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+footer{
+    color: rgb(234, 226, 241);
+    padding-top: 100px;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+li {
+    padding: 5px 0
+}
